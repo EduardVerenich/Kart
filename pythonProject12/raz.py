@@ -67,6 +67,6 @@ def razdach_comp():
         return komputer
 # razdach0()
 # rez_igrokam()
-#
+
 print(bank)
 print(user,komputer)
