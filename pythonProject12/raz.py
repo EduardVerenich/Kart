@@ -9,13 +9,14 @@ user = []
 komputer = []
 
 
-def razdach0():
+def razdach0(bank):
     r = 35
-    while 0 <= r:
+    while -1 < r:
         x = random.randint(0, r)
         bank.append(bank1[x])
         del bank1[x]
         r -= 1
+        print(bank1)
     return bank
 
 
@@ -23,8 +24,8 @@ def rez_igrokam():
 
     i = 1
     while i <= 6:
-        import main
-        bank=main.bank
+        # import main
+        # bank=main.bank
 
         if bank[0] != []:
             komputer.append(bank[0])
@@ -65,8 +66,8 @@ def razdach_comp():
             del bank[0]
         c -= 1
         return komputer
-# razdach0()
-# rez_igrokam()
+razdach0(bank)
+rez_igrokam()
 
 print(bank)
 print(user,komputer)

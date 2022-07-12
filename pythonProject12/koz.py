@@ -1,10 +1,10 @@
-import main
+import raz
 
 
-bank = main.bank
+bank = raz.bank
 
-user = main.user
-komputer= main.komputer
+user = raz.user
+komputer= raz.komputer
 
 kozir_komp = []                                                 # Козыри на руках у КОМПЮТЕРА
 kozir_user = []                                                 # Козыри на руках у USER
@@ -60,4 +60,4 @@ def komy_xod0():
 
 kozir_na_rukah()
 # kozir_na_rukah()
-# komy_xod0()
+komy_xod0()
